@@ -15,3 +15,4 @@ const sendGifts =  (...friends: string[]) => {
 }
 
 sendGifts("Alice", "Bob", "Charlie", "Dave");
+
