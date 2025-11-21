@@ -12,3 +12,6 @@ console.log(cooler);
 
 const {name: {first : tahide , last}} = user;
 
+// tahide = first name
+console.log(tahide);
+console.log(last);
