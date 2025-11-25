@@ -24,8 +24,4 @@ const printUserStatus = (status: string | null) : void => {
     `);
 }
 
-printUserStatus("Inactive"); // Output: User status: Inactive
-
-
-printUserStatus(null); // Output: User status: Active
-// type Nullable<T> = T | null;
+    
