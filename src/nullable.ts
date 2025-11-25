@@ -10,5 +10,3 @@ const getusername =  (input: string | null) => {
 
 getusername("john_doe");
 getusername(null);
-
-const getUserAge = (age: number | null) : number => {
