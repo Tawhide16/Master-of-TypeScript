@@ -15,5 +15,3 @@ const getUserAge = (age: number | null) : number => {
     return age ?? 18; // default age is 18 if null
 }   
 console.log(getUserAge(25)); // Output: 25
-console.log(getUserAge(null)); // Output: 18
-
