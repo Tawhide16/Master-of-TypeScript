@@ -17,11 +17,3 @@ const getUserAge = (age: number | null) : number => {
 console.log(getUserAge(25)); // Output: 25
 console.log(getUserAge(null)); // Output: 18
 
-const printUserStatus = (status: string | null) : void => {
-    const userStatus = status ?? "Active";          
-    console.log(`
-    User status: ${userStatus}
-    `);
-}
-
-    
