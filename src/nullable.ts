@@ -10,3 +10,22 @@ const getusername =  (input: string | null) => {
 
 getusername("john_doe");
 getusername(null);
+
+const getUserAge = (age: number | null) : number => {
+    return age ?? 18; // default age is 18 if null
+}   
+console.log(getUserAge(25)); // Output: 25
+console.log(getUserAge(null)); // Output: 18
+
+const printUserStatus = (status: string | null) : void => {
+    const userStatus = status ?? "Active";          
+    console.log(`
+    User status: ${userStatus}
+    `);
+}
+
+printUserStatus("Inactive"); // Output: User status: Inactive
+
+
+printUserStatus(null); // Output: User status: Active
+// type Nullable<T> = T | null;
